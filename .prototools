@@ -4,6 +4,7 @@ helm = "4.0.4"
 infisical = "0.41.90"
 kubectl = "1.35.0"
 kustomize = "5.8.0"
+sqlc = "1.30.0"
 
 [plugins]
 buf = "file://./plugins/buf.toml"
@@ -12,3 +13,4 @@ helm = "file://./plugins/helm.toml"
 infisical = "file://./plugins/infisical.toml"
 kubectl = "file://./plugins/kubectl.toml"
 kustomize = "file://./plugins/kustomize.toml"
+sqlc = "file://./plugins/sqlc.toml"

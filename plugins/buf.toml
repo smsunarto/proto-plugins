@@ -7,6 +7,7 @@ checksum-file = "sha256.txt"
 
 [platform.linux.arch]
 aarch64 = "aarch64"
+arm64 = "aarch64"
 x86_64 = "x86_64"
 
 [platform.macos]
